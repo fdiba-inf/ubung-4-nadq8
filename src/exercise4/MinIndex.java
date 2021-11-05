@@ -17,11 +17,11 @@ public class MinIndex {
             numbers[index] = input.nextDouble();
         }
         int minIndex=0;
-        for (int index = 0; index < numbers.length; index++) {
+        for (int index = 1; index < numbers.length; index++) {
           if(numbers[index]<numbers[minIndex])
           {minIndex=index;
           }
         }
-        System.out.println("Min index:"+minIndex);
+        System.out.println("Min index :"+ minIndex);
     }
 }

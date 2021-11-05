@@ -17,12 +17,12 @@ public class MaxElement {
             numbers[index] = input.nextDouble();
         }
         double maxNumber=numbers[0];
-        for (int index = 0; index < numbers.length; index++) {
+        for (int index = 1; index < numbers.length; index++) {
           if(numbers[index]>maxNumber)
           {maxNumber=numbers[index];
           }
         }
-        System.out.println("Max number:"+maxNumber);
+        System.out.println("Max number: "+ maxNumber);
     }
 }
         
